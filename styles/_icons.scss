@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'icons';
+  src: url('../font/icons.eot?65506620');
+  src: url('../font/icons.eot?65506620#iefix') format('embedded-opentype'),
+       url('../font/icons.woff2?65506620') format('woff2'),
+       url('../font/icons.woff?65506620') format('woff'),
+       url('../font/icons.ttf?65506620') format('truetype'),
+       url('../font/icons.svg?65506620#share') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+$regLog-color: #fff;
+$search-color: #999;
+$read-more-color:  rgba(70,70,70,0.6);
+$more-option-icon-color:#d93655;
+$read-more-size: 8pt;
+$regLog-size: 15px;
+$faceTweet-size: 25px;
+$search-size: 18pt;
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.icon-pencil-1:before {
+  content: '\e800';
+  color: $regLog-color;
+} /* '' */
+.icon-search-1:before {
+  content: '\e801';
+  font-size: $search-size;
+  color: $search-color;
+} /* '' */
+.icon-search:before{
+  content: url(../images/icons/magnifying.png);
+}
+.icon-arrows-cw:before {
+  content: url("../images/icons/refresh.png");
+  color: $more-option-icon-color;
+  margin-right: 7px;
+} /* '' */
+.icon-left-dir-1:before {
+  content: '\e803';
+} /* '' */
+.icon-down-dir:before {
+  content: '\e805';
+  color: $more-option-icon-color;
+} /* '' */
+.icon-cancel-circled2:before {
+  content: url("../images/icons/stop.png");
+  color: $more-option-icon-color;
+  margin-right: 7px;
+} /* '' */
+.icon-users-1:before {
+  color: $regLog-color;
+  font-size: $regLog-size;
+  content: '\f064';
+} /* '' */
+.icon-twitter:before {
+  color: $regLog-color;
+  font-size: $faceTweet-size;
+  content: '\f099';
+} /* '' */
+.icon-facebook:before {
+  color: $regLog-color;
+  font-size: $faceTweet-size;
+  content: '\f09a';
+} /* '' */
+.icon-share:before {
+  content: '\f1e0';
+  color: $regLog-color;
+} /* '' */
+.icon-lock-alt:before {
+  color: $regLog-color;
+  font-size: $regLog-size;
+  content: '\f510';
+} /* '' */
+.icon-angle-double-right:before{
+  color: $read-more-color;
+  content: '\f101';
+  margin-left: 4px;
+}
